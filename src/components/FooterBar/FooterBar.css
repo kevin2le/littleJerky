@@ -1,10 +1,7 @@
-body {
-    display: flex;
-    min-height: 0vh;
-    flex-direction: column;
-  }
 
-main {
-    flex: 1 0 auto;
-  }
-      
+.foot {
+   display: flex;
+   flex-direction: column;
+   padding-top: 100%;
+   flex: 1 0 auto;
+}

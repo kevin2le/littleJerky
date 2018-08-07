@@ -18,7 +18,7 @@ class NavBar extends Component {
     render() {
         return (
             <div className="NavBar">
-            <NavMaterialize brand='TheLittleJerkyCo' href="/" right className = "red" >
+            <NavMaterialize brand='TheLittleJerkyCo' href="/" right className = "#90a4ae blue-grey lighten-2" >
                 <Dropdown trigger={
                     <a><Icon>menu</Icon></a>
                 }>
