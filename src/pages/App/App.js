@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {
     Switch,
     Route,
-    ImageBackground,
     // Redirect,
 } from 'react-router-dom';
 // import BackgroundImage from '../../Background/Background';
@@ -22,18 +21,18 @@ class App extends Component {
     };
     render() {
         return (
-            <div className="paperbagset">
-                <div>
-                <NavBar />
-                
-                <Switch>
-                    <Route exact path='/' component={HomePage} />
-                    <Route exact path='/about' component={AboutPage} />
-                    <Route exact path='/order' component={OrderPage} />
-                </Switch>
+                <div className="paperbagset">
+                    <div>
+                    <NavBar />
+                    
+                    <Switch>
+                        <Route exact path='/' component={HomePage} />
+                        <Route exact path='/about' component={AboutPage} />
+                        <Route exact path='/order' component={OrderPage} />
+                    </Switch>
+                    </div>
+                    <FooterBar />
                 </div>
-                <FooterBar />
-            </div>
         );
     }
 }

@@ -4,9 +4,8 @@ const AboutPage = (props) => {
     return(
         <div class="center">
             <h1>Our Story</h1>
-            <p>The Little Jerky Company is led by our matriarch, Chung. Our love for jerky comes from the Vietnamese dish, Goi Dau Dau, Green Papaya Salad
-            <img src="https://i.imgur.com/YHnaIzd.jpg" /> 
-            </p>
+            <p><strong>The Little Jerky Company is led by our matriarch, Chung. <br/>Our love for jerky comes from the Vietnamese dish, Goi Dau Dau, Green Papaya Salad</strong></p>
+            <img src="https://i.imgur.com/vd4WnLr.jpg" style={{width: 555, height: 675, borderRadius: 5}}/>
         </div>
     )
 }

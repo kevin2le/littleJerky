@@ -1,7 +1,25 @@
+:root {
+     space: 1.5em 0;
+     space: 2em 0;
+};
 
-.foot {
-   display: flex;
-   flex-direction: column;
-   padding-top: 100%;
-   flex: 1 0 auto;
+.Site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.Site-content {
+    flex: 1 0 auto;
+    padding: var( — space) var( — space) 0;
+    width: 100%;
+}
+
+.flexing {
+    position: static;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*padding: 1rem;*/
+
+    /*text-align: center;*/
 }

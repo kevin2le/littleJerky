@@ -1,4 +1,10 @@
-    .paperbagset {
+.paperbagset {
     background-image: url("https://i.imgur.com/2vaf7GX.jpg");
     float: center;
+}
+
+.pageset {
+  margin: 0 auto;
+  /*max-width: 640px;*/
+  width: 100%;
 }
