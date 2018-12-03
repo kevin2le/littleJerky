@@ -8,6 +8,12 @@ var app = express();
 
 app.use(logger('dev'));
 
+app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false}));
+
 var port = process.env.Port || 3001;
 
 app.listen(port, function() {
