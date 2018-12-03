@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
 
-var port = process.env.Port || 3001;
+var port = process.env.PORT || 3001;
 
 app.listen(port, function() {
     console.log(`Express app running on port ${port}`)
